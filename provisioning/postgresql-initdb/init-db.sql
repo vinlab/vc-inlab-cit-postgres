@@ -1,4 +1,6 @@
 -- This script runs once when Postgres database is created
+-- Create app database
+CREATE DATABASE code_inventory_backend;
 
 -- Create app user. Grant superuser privileges for Liquibase to succeed
 CREATE USER code_inventory_backend WITH PASSWORD 'Smart-bananas-silly-nuts-57';
